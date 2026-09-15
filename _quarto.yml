@@ -1,0 +1,26 @@
+project:
+  type: book
+  output-dir: _book
+execute:
+  enabled: false
+lang: "es"
+bibliography: references.json
+
+book:
+  title: "De los datos de biodiversidad a la acción: transferencia de conocimiento en Ecuador y América Latina"
+  author: Gabriel Munoz
+  date: today
+  chapters:
+    - index.qmd
+    - chapter_01.qmd
+    - chapter_02.qmd
+    - chapter_03.qmd
+    - chapter_04.qmd
+    - chapter_05.qmd
+    - chapter_06.qmd
+    - chapter_07.qmd
+    - chapter_08.qmd
+    - references.qmd
+format:
+  html:
+    toc: true
